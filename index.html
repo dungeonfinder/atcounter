@@ -5,7 +5,7 @@
 </head>
 <body>
 	<script type="text/javascript">
-		var atcount = localStorage.getItem("atCount") || 0;
+		var atcount = parseInt(localStorage.getItem("atCount")) || 0;
 		localStorage.setItem("atCount", atcount + 1)
 	</script>
 </body>
